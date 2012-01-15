@@ -1,0 +1,3 @@
+#/bin/bash
+
+cp -R ../Theme /c/xampp/htdocs/wordpress/wp-content/themes/iht
