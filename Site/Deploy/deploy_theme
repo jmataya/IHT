@@ -1,3 +1,4 @@
 #/bin/bash
 
+rm -r /c/xampp/htdocs/wordpress/wp-content/themes/iht
 cp -R ../Theme /c/xampp/htdocs/wordpress/wp-content/themes/iht
