@@ -2045,7 +2045,7 @@ a.comment-reply-link > span {
 	margin: 0 auto 1.625em;
 	padding: 1.625em;
 	position: relative;
-	width: 68.9%;
+	display: none;
 }
 #respond input[type="text"],
 #respond textarea {
