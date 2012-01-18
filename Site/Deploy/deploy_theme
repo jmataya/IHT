@@ -1,4 +1,6 @@
 #/bin/bash
 
-rm -r /c/xampp/htdocs/wordpress/wp-content/themes/iht
-cp -R ../Theme /c/xampp/htdocs/wordpress/wp-content/themes/iht
+#rm -r /c/xampp/htdocs/wordpress/wp-content/themes/iht
+#cp -R ../Theme /c/xampp/htdocs/wordpress/wp-content/themes/iht
+rm -r /var/www/wp-content/themes/iht
+cp -R ../Theme /var/www/wp-content/themes/iht
