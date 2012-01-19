@@ -1,6 +1,24 @@
 #/bin/bash
 
-#rm -r /c/xampp/htdocs/wordpress/wp-content/themes/iht
-#cp -R ../Theme /c/xampp/htdocs/wordpress/wp-content/themes/iht
-rm -r /var/www/wp-content/themes/iht
-cp -R ../Theme /var/www/wp-content/themes/iht
+SOURCE_DIR="../Theme"
+DEST_DIR=
+CONTINUE=0
+
+if [ $1 = "cygwin" ]; then
+    DEST_DIR="/cygdrive/c/xampp/htdocs/wordpress/wp-content/themes/iht"
+else
+    if [ $1 = "win" ]; then
+        DEST_DIR="/c/xampp/htdocs/wordpress/wp-content/themes/iht"
+    else
+        if [ $1 = "ubuntu" ]; then
+            DEST_DIR="/var/www/wp-content/themes/iht"
+        else
+            echo "Use switch cygwin, win, or ubuntu."
+        fi
+    fi
+fi                
+
+if [ $CONTINUE -eq 0 ]; then
+    rm -r $DEST_DIR 
+    cp -R $SOURCE_DIR $DEST_DIR 
+fi    
