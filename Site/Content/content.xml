@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.3.1" created="2012-01-16 16:53" -->
+<!-- generator="WordPress/3.3.1" created="2012-01-19 16:11" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Carnegie Mellon University Innovation in Healthcare Technology Conference</title>
-	<link>http://localhost/wordpress</link>
+	<link>http://ihtconference.com</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Mon, 16 Jan 2012 16:53:19 +0000</pubDate>
+	<pubDate>Thu, 19 Jan 2012 16:11:58 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.1</wp:wxr_version>
-	<wp:base_site_url>http://localhost/wordpress</wp:base_site_url>
-	<wp:base_blog_url>http://localhost/wordpress</wp:base_blog_url>
+	<wp:base_site_url>http://ihtconference.com</wp:base_site_url>
+	<wp:base_blog_url>http://ihtconference.com</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>jeff.mataya@gmail.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -42,20 +42,150 @@
 	<generator>http://wordpress.org/?v=3.3.1</generator>
 
 	<item>
+		<title>Hello world!</title>
+		<link>http://ihtconference.com/?p=1</link>
+		<pubDate>Tue, 17 Jan 2012 01:49:29 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://ihtconference.com/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date>2012-01-17 01:49:29</wp:post_date>
+		<wp:post_date_gmt>2012-01-17 01:49:29</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hello-world</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1326773256]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_comments_status</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP></wp:comment_author_IP>
+			<wp:comment_date>2012-01-17 01:49:29</wp:comment_date>
+			<wp:comment_date_gmt>2012-01-17 01:49:29</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
+			<wp:comment_approved>post-trashed</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Sample Page</title>
+		<link>http://ihtconference.com/?page_id=2</link>
+		<pubDate>Tue, 17 Jan 2012 01:49:29 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://ihtconference.com/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickies to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://ihtconference.com/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date>2012-01-17 01:49:29</wp:post_date>
+		<wp:post_date_gmt>2012-01-17 01:49:29</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>sample-page</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1326773260]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>header-logo.png</title>
+		<link>http://ihtconference.com/?attachment_id=24</link>
+		<pubDate>Tue, 17 Jan 2012 04:05:16 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://ihtconference.com/wp-content/uploads/2012/01/header-logo.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[http://ihtconference.com/wp-content/uploads/2012/01/header-logo.png]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date>2012-01-17 04:05:16</wp:post_date>
+		<wp:post_date_gmt>2012-01-17 04:05:16</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>header-logo-png</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://ihtconference.com/wp-content/uploads/2012/01/header-logo.png</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2012/01/header-logo.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_context</wp:meta_key>
+			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";s:4:"1000";s:6:"height";s:3:"288";s:14:"hwstring_small";s:23:"height='36' width='128'";s:4:"file";s:23:"2012/01/header-logo.png";s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_is_custom_header</wp:meta_key>
+			<wp:meta_value><![CDATA[iht]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Realizing the Future of Health Care</title>
-		<link>http://localhost/wordpress/?p=1</link>
+		<link>http://ihtconference.com/?p=5</link>
 		<pubDate>Sun, 15 Jan 2012 21:42:53 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[The first annual Carnegie Mellon University Innovation in Health Care Technology Conference, presented by the J. Heinz College and the Tepper School of Business, will take place on March 23, 2012 on Carnegie Mellon's campus.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
+		<wp:post_id>5</wp:post_id>
 		<wp:post_date>2012-01-15 21:42:53</wp:post_date>
 		<wp:post_date_gmt>2012-01-15 21:42:53</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>hello-world</wp:post_name>
+		<wp:post_name>hello-world-2</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -68,7 +198,7 @@
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[Mr WordPress]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
 			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
@@ -92,7 +222,7 @@
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>http://localhost/wordpress/?page_id=2</link>
+		<link>http://ihtconference.com/?page_id=6</link>
 		<pubDate>Sun, 15 Jan 2012 21:42:53 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=2</guid>
@@ -107,12 +237,12 @@
 
 As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
+		<wp:post_id>6</wp:post_id>
 		<wp:post_date>2012-01-15 21:42:53</wp:post_date>
 		<wp:post_date_gmt>2012-01-15 21:42:53</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>sample-page</wp:post_name>
+		<wp:post_name>sample-page-2</wp:post_name>
 		<wp:status>trash</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -133,47 +263,8 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>header-logo.png</title>
-		<link>http://localhost/wordpress/?attachment_id=4</link>
-		<pubDate>Sun, 15 Jan 2012 22:27:27 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wordpress/wp-content/uploads/2012/01/header-logo.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[http://localhost/wordpress/wp-content/uploads/2012/01/header-logo.png]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date>2012-01-15 22:27:27</wp:post_date>
-		<wp:post_date_gmt>2012-01-15 22:27:27</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>header-logo-png</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wordpress/wp-content/uploads/2012/01/header-logo.png</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2012/01/header-logo.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_context</wp:meta_key>
-			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";s:4:"1000";s:6:"height";s:3:"288";s:14:"hwstring_small";s:23:"height='36' width='128'";s:4:"file";s:23:"2012/01/header-logo.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:23:"header-logo-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:22:"header-logo-300x86.png";s:5:"width";s:3:"300";s:6:"height";s:2:"86";}s:13:"small-feature";a:3:{s:4:"file";s:23:"header-logo-500x144.png";s:5:"width";s:3:"500";s:6:"height";s:3:"144";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_is_custom_header</wp:meta_key>
-			<wp:meta_value><![CDATA[iht]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Keynote</title>
-		<link>http://localhost/wordpress/?page_id=8</link>
+		<link>http://ihtconference.com/?page_id=8</link>
 		<pubDate>Sun, 15 Jan 2012 23:07:26 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=8</guid>
@@ -203,7 +294,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Panelists</title>
-		<link>http://localhost/wordpress/?page_id=12</link>
+		<link>http://ihtconference.com/?page_id=12</link>
 		<pubDate>Sun, 15 Jan 2012 23:08:00 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=12</guid>
@@ -243,7 +334,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Register</title>
-		<link>http://localhost/wordpress/?page_id=15</link>
+		<link>http://ihtconference.com/?page_id=15</link>
 		<pubDate>Sun, 15 Jan 2012 23:08:33 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=15</guid>
@@ -273,7 +364,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Sponsors</title>
-		<link>http://localhost/wordpress/?page_id=17</link>
+		<link>http://ihtconference.com/?page_id=17</link>
 		<pubDate>Sun, 15 Jan 2012 23:09:23 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=17</guid>
@@ -303,12 +394,88 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Agenda</title>
-		<link>http://localhost/wordpress/?page_id=19</link>
+		<link>http://ihtconference.com/?page_id=19</link>
 		<pubDate>Sun, 15 Jan 2012 23:10:04 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=19</guid>
 		<description></description>
-		<content:encoded><![CDATA[The agenda for the conference]]></content:encoded>
+		<content:encoded><![CDATA[<table>
+<tbody>
+<tr id="agendaHead">
+<td>9:00am-9:30am</td>
+<td>Registration and Continental Breakfast</td>
+</tr>
+<tr>
+<td></td>
+<td>University Center, Rangos 1, 2, and 3</td>
+</tr>
+<tr id="agendaHead">
+<td>9:30am-9:45am</td>
+<td>Welcome</td>
+</tr>
+<tr>
+<td></td>
+<td>University Center, Rangos 1, 2, and 3</td>
+</tr>
+<tr>
+<td>10:45am-11:15am</td>
+<td>Break</td>
+</tr>
+<tr id="agendaHead">
+<td>11:15am-12:30pm</td>
+<td>Concurrent Panels: Medical Devices and Health Care IT</td>
+</tr>
+<tr id="agendaHead">
+<td></td>
+<td>Moving Medical Devices Beyond Its Current Capabilities to Drive High Quality, Low Cost Care</td>
+</tr>
+<tr id="agendaHead">
+<td></td>
+<td>Hamburg Hall, Room 1000</td>
+</tr>
+<tr id="agendaHead">
+<td></td>
+<td>
+<ul>
+	<li>Moderator:</li>
+	<li>Christine Robbins, CEO, Body Media</li>
+	<li>Doug Ladd, Ethicon Endo Surgery</li>
+</ul>
+</td>
+</tr>
+<tr id="agendaHead">
+<td></td>
+<td>Moving HIT Beyond Its Current Capabilities to Drive Improved Patient Outcomes</td>
+</tr>
+<tr id="agendaHead">
+<td></td>
+<td>Posner Hall, Room 153</td>
+</tr>
+<tr id="agendaHead">
+<td></td>
+<td>
+<ul>
+	<li>Moderator:</li>
+	<li>Eric Dahlem, Managing Director, Business Transformation Process, SDLC Partners</li>
+	<li>Mary Anne Darragh, VP of Health Management Services, Highmark</li>
+	<li>Assaf Halevy, Co-Founder and VP of Strategic Accounts and Business Development, dB Motion</li>
+	<li>Jay Srini, Chief Strategist, SCS Ventures</li>
+</ul>
+</td>
+</tr>
+<tr><td>12:30pm-1:00pm</td><td>Break</td></tr>
+<tr id="agendaHead"><td>1:00pm-2:30pm</td><td>Lunch and Entrepreneurship Panel</td></tr>
+<tr id="agendaHead"><td></td><td>University Center, Rangos 1, 2, and 3</td></tr>
+<tr><td></td><td><ul><li>Moderator: Jim Jordan, Chief Investment Officer, Pittsburgh Life Sciences Greenhouse</li><li>Hank Werronen, PHQL</li><li>Adam Simone (MSBTM, 2011), Blue Belt Technologies</li><li>Steve Fleck, Clear Count</li></ul></td></tr>
+<tr><td>2:30pm-2:45pm</td><td>Break</td></tr>
+<tr id="agendaHead"><td>2:45pm-3:45pm</td><td>Keynote, Don DeLauder, Executive Director, Corporate Innovation, Medrad</td></tr>
+<tr><td></td><td>University Center, Rangos 1, 2, and 3</td></tr>
+<tr id="agendaHead"><td>3:45pm-4:00pm</td><td>Concluding Remarks</td></tr>
+<tr><td></td><td>University Center, Rangos 1, 2, and 3</td></tr>
+<tr id="agendaHead"><td>4:00pm-5:00pm</td><td>Networking Reception</td></tr>
+<tr><td></td><td>Posner Center</td></tr>
+</tbody>
+</table>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>19</wp:post_id>
 		<wp:post_date>2012-01-15 23:10:04</wp:post_date>
@@ -333,7 +500,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Contact Us</title>
-		<link>http://localhost/wordpress/?page_id=21</link>
+		<link>http://ihtconference.com/?page_id=21</link>
 		<pubDate>Sun, 15 Jan 2012 23:10:40 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=21</guid>
@@ -363,7 +530,7 @@ As a new WordPress user, you should go to <a href="http://localhost/wordpress/wp
 	</item>
 	<item>
 		<title>Our Team</title>
-		<link>http://localhost/wordpress/?page_id=23</link>
+		<link>http://ihtconference.com/?page_id=23</link>
 		<pubDate>Sun, 15 Jan 2012 23:10:54 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://localhost/wordpress/?page_id=23</guid>
