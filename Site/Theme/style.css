@@ -102,9 +102,9 @@ body {
 }
 .singular #content,
 .left-sidebar.singular #content {
-	margin: 0 7.6%;
+	margin: 0 auto;
 	position: relative;
-	width: auto;
+	width: 100%;
 }
 .singular .entry-header,
 .singular .entry-content,
