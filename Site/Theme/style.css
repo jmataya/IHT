@@ -2658,6 +2658,36 @@ p.comment-form-comment {
 
 }
 
+/* Agenda
+----------------------------------------------- */
+#agendaSecond {
+    border-top: 0px;
+}
+
+#leftColumn {
+    width: 130px;
+}
+
+#panelTitle {
+    font-weight: bold;
+    border-top: 0px;
+}
+
+#panelTitleEntrepreneurship {
+    font-weight: bold;
+}
+
+#agendaSecondLocation {
+    font-style: italic;
+    border-top: 0px;
+    margin-top: -10px;
+    padding-top: -10px;
+}
+
+#locationRow {
+    margin-top: -10px;
+    padding-top: -30px;
+}
 
 /* =IE7
 ----------------------------------------------- */
