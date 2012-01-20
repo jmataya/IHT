@@ -13,12 +13,18 @@ else
         if [ $1 = "ubuntu" ]; then
             DEST_DIR="/var/www/wp-content/themes/iht"
         else
-            echo "Use switch cygwin, win, or ubuntu."
+            if [ $1 = "aws" ]; then
+                DEST_DIR="/var/www/html/wp-content/themes/iht"
+            else
+                echo "Use switch cygwin, win, aws, or ubuntu."
+            fi
         fi
     fi
 fi                
 
 if [ $CONTINUE -eq 0 ]; then
-    rm -r $DEST_DIR 
+    if [ -d $DEST_DIR ]; then
+        rm -r $DEST_DIR 
+    fi
     cp -R $SOURCE_DIR $DEST_DIR 
 fi    
