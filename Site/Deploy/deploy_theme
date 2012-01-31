@@ -11,7 +11,7 @@ else
         DEST_DIR="/c/xampp/htdocs/wordpress/wp-content/themes/iht"
     else
         if [ $1 = "ubuntu" ]; then
-            DEST_DIR="/var/www/wp-content/themes/iht"
+            DEST_DIR="/var/www/wordpress/wp-content/themes/iht"
         else
             if [ $1 = "aws" ]; then
                 DEST_DIR="/var/www/html/wp-content/themes/iht"
