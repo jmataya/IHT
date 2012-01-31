@@ -2197,7 +2197,10 @@ p.comment-form-comment {
 
 #colophon {
 	clear: both;
+	background-image: url('images/FooterBorder.png');
+	padding-top:10px;
 }
+
 #supplementary {
 	border-top: 1px solid #ddd;
 	padding: 1.625em 7.6%;
@@ -2223,12 +2226,12 @@ p.comment-form-comment {
 #supplementary.three .widget-area + .widget-area + .widget-area {
 	margin-right: 0;
 }
+	
 
 /* Site Generator Line */
 #site-generator {
-	background: #6D6E71;
-	border-top: 1px solid #ddd;
-	color: #666;
+	background-color: #6D6E71;
+	color: #FFF;
 	font-size: 12px;
 	line-height: 2.2em;
 	padding: 2.2em 0.5em;
