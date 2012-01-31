@@ -35,7 +35,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 }
 body {
-	background: #fff;
+	background: #6D6E71;
 	line-height: 1;
 }
 ol, ul {
@@ -94,6 +94,7 @@ body {
 	float: right;
 	margin-right: 2.0%;
 	width: 24.4%;
+	
 }
 
 /* Singular */
@@ -320,7 +321,7 @@ body, input, textarea {
 	line-height: 1.625;
 }
 body {
-	background: #e2e2e2;
+	background: #6D6E71;
 }
 #page {
 	background: #fff;
@@ -2225,14 +2226,14 @@ p.comment-form-comment {
 
 /* Site Generator Line */
 #site-generator {
-	background: #f9f9f9;
+	background: #6D6E71;
 	border-top: 1px solid #ddd;
 	color: #666;
 	font-size: 12px;
 	line-height: 2.2em;
 	padding: 2.2em 0.5em;
 	text-align: center;
-	display: none;18.
+	display: block;.
 }
 #site-generator a {
 	color: #555;
