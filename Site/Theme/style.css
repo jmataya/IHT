@@ -94,7 +94,16 @@ body {
 	float: right;
 	margin-right: 2.0%;
 	width: 24.4%;
-	
+	background-color: #EC6324;
+}
+
+#secondary #sponsor_headers {
+    color: #FFF;
+}
+
+#secondary #sponsor_headers h1 {
+    font-size: 24px;
+    text-align: center;
 }
 
 /* Singular */
@@ -324,7 +333,7 @@ body {
 	background: #6D6E71;
 }
 #page {
-	background: #fff;
+	background: #f7f7f7;
 }
 
 /* Headings */
