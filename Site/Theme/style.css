@@ -81,21 +81,33 @@ body {
 #access div {
 	margin: 0 7.6%;
 }
-#primary {
+.home #primary {
 	float: left;
-	margin: 0 -26.4% 0 0;
+	/*margin: 0 -26.4% 0 0;*/
+	margin-top: -10px;
+	width: 62%;
+	padding-left: 4.0%;
+}
+
+.page #primary {
+	float: left;
+	/*margin: 0 -26.4% 0 0;*/
+	margin-top: -10px;
 	width: 100%;
 }
 #content {
-	margin: 0 36% 0 5.6%;
-	width: 54.4%;
+	/*margin: 0 16% 0 5.6%;*/
+	float: left;
+	/*width: 50.4%;*/
 }
 #secondary {
 	float: right;
-	margin-right: 2.0%;
+	margin-right: 4.0%;
 	margin-bottom: 30px;
-	width: 25.4%;
+	width: 26%;
 	background-color: #EC6324;
+	padding-top: 10px;
+	padding-bottom: -10px;
 }
 
 #secondary #sponsor_headers {
@@ -695,6 +707,11 @@ a:hover {
 	clear: both;
 	padding: 1.625em 0 0;
 }
+
+.page #main {
+	padding: 0 0 0 0;
+}
+
 .page-title {
 	color: #666;
 	font-size: 10px;
