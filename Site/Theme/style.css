@@ -2254,6 +2254,40 @@ p.comment-form-comment {
 	width: 16px;
 }
 
+#tepper {
+    position: relative;
+    float: left;
+    width:20%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#tepper img {
+    float: left;
+}
+
+#cmuandheinz {
+    position: relative;
+    float: right;
+    width: 80%;
+}
+
+#cmu {
+    position: relative;
+    float: left;
+    width: 75%;
+    margin-top: 20px;
+}
+
+#heinz {
+    position: relative;
+    float: right;
+    width: 25%;
+}
+
+#heinz img {
+    float: right;
+}
 
 /* =Responsive Structure
 ----------------------------------------------- */

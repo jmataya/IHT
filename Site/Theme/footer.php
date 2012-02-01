@@ -22,10 +22,23 @@
 					get_sidebar( 'footer' );
 			?>
 
-			<div id="site-generator">
+			<!--<div id="site-generator">
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
-			</div>
+			</div>-->
+			<div id="site-generator">
+			    <div id="tepper">
+    			    <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/tepper-logo.png" />
+			    </div>
+			    <div id="cmuandheinz">
+			        <div id="cmu">
+			            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/CMU-logo.png" />
+		            </div>
+		            <div id="heinz">
+		                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/heinz-logo.png" />
+	                </div>
+	            </div>
+            </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
