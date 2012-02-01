@@ -2284,7 +2284,7 @@ p.comment-form-comment {
 #tepper {
     position: relative;
     float: left;
-    width:20%;
+    width:15%;
     margin-left: 0px;
     margin-bottom: 20px;
 }
@@ -2296,7 +2296,7 @@ p.comment-form-comment {
 #cmuandheinz {
     position: relative;
     float: right;
-    width: 80%;
+    width: 85%;
 }
 
 #cmu {
@@ -2310,6 +2310,7 @@ p.comment-form-comment {
     position: relative;
     float: right;
     width: 25%;
+    margin-top: 7px;
 }
 
 #heinz img {
