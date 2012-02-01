@@ -87,13 +87,14 @@ body {
 	width: 100%;
 }
 #content {
-	margin: 0 34% 0 7.6%;
-	width: 58.4%;
+	margin: 0 36% 0 5.6%;
+	width: 54.4%;
 }
 #secondary {
 	float: right;
 	margin-right: 2.0%;
-	width: 24.4%;
+	margin-bottom: 30px;
+	width: 25.4%;
 	background-color: #EC6324;
 }
 
@@ -2296,6 +2297,16 @@ p.comment-form-comment {
 
 #heinz img {
     float: right;
+}
+
+#sponsor_logos {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sponsor_logos img {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* =Responsive Structure
