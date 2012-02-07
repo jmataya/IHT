@@ -28,14 +28,14 @@
 			</div>-->
 			<div id="site-generator">
 			    <div id="tepper">
-    			    <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/tepper-logo.png" />
+    			    <a href="http://tepper.cmu.edu"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/tepper-logo.png" /></a>
 			    </div>
 			    <div id="cmuandheinz">
 			        <div id="cmu">
-			            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/CMU-logo.png" />
+			            <a href="http://www.cmu.edu"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/CMU-logo.png" /></a>
 		            </div>
 		            <div id="heinz">
-		                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/heinz-logo.png" />
+		                <a href="http://www.heinz.cmu.edu"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/iht/images/hosts/heinz-logo.png" /></a>
 	                </div>
 	            </div>
             </div>
