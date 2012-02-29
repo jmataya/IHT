@@ -1,0 +1,23 @@
+#sc-body h1,h2 {color:#758b8d; font-family: 'Goudy Bookletter 1911',Arial,Serif;}
+#sc-body h1 {font-size: 36px;}
+#sc-body h2{font-size:24px; letter-spacing: -1px; font-weight: normal;}
+#sc-body {padding:0 0 0 25px; width:960px;}
+#sc-body td{vertical-align:middle;}
+#sc-body td#siteTitle{font-weight:bold;}
+#sc-body a{text-decoration:none;}
+
+#sc-main {width:600px; float:left;}
+#sc-main .icon32 {float: left; height: 34px; margin: 15px 8px 0 0; width: 36px;}
+#sc-main p {line-height: 16px; font-family: 'Droid Sans',Arial,sans-serif; font-size: 14px; color: #757575;}
+
+#sc-sideBanner-container {float:right; -moz-border-radius: 15px; border-radius: 15px; border:1px solid; margin-top:25px; padding:5px;}
+#sc-sideBanner-container td{vertical-align:text-top;}
+#sc-sideBanner-image {-moz-border-radius: 12px 12px 0 0; border-radius: 12px 12px 0 0; width:240px; height:272px; background:url(../img/sideBanner/main.png); background-repeat:no-repeat;}
+#sc-sideBanner-divider {height:24px; width:240px; background:url(../img/sideBanner/bg-shadow.png);}
+#sc-sideBanner-content p{margin-top:0; text-align:center; line-height: 24px; font-family: 'Goudy Bookletter 1911',Arial,Serif; font-size: 18px; color: #8C8B8B; text-shadow: 1px 1px 1px white; font-weight:bold;}
+#sc-sideBanner-content {padding:10px 10px 0 10px; width:220px; -moz-border-radius: 0 0 12px 12px; border-radius: 0 0 12px 12px; background:url(../img/sideBanner/bg.png); height:300px;}
+
+#sc-sideBanner-button{position:relative; bottom:-254px; left:0%; z-index:8;}
+#sc-sideBanner-button a{text-decoration:none}
+#sc-sideBanner-button a.sc-sideBanner-button {background:url(../img/sideBanner/button.png) no-repeat right bottom; color:#fff; font-family:'Goudy Bookletter 1911',arial,serif; display:block; font-size:20px; text-shadow:1px 1px 1px rgba(0,0,0,0.5); height:33px; line-height:33px; padding-right:5px; padding-bottom:2px; margin: 0 auto; width:150px;}
+#sc-sideBanner-button a.sc-sideBanner-button span{background:url(../img/sideBanner/button.png) no-repeat; display:block; height:33px; text-align:center; padding-left:8px;}
