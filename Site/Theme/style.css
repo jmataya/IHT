@@ -2323,7 +2323,12 @@ p.comment-form-comment {
 }
 
 #general_img {
+    float: center;
     margin: 0px auto;
+}
+
+#general_img img {
+    float: center;
 }
 
 #sponsor_logos {
