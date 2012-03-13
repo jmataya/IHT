@@ -2318,6 +2318,19 @@ p.comment-form-comment {
     float: right;
 }
 
+#keynote_img {
+    margin: 0px auto;
+}
+
+#general_img {
+    float: center;
+    margin: 0px auto;
+}
+
+#general_img img {
+    float: center;
+}
+
 #sponsor_logos {
     padding-left: 20px;
     padding-right: 20px;
@@ -2326,6 +2339,17 @@ p.comment-form-comment {
 #sponsor_logos img {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#keynote_logos h2 {
+    /* Add style for the keynote header  */
+    font-size: 16px;
+    
+}
+
+#general_sponsor_logos h3 {
+    /* Add style for the general sponsor header */
+    font-size: 16px;
 }
 
 /* =Responsive Structure
