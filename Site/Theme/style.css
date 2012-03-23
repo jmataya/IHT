@@ -101,17 +101,36 @@ body {
 	float: left;
 	/*width: 50.4%;*/
 }
+
+.twtr-profile-img-anchor {
+	display: none;
+}
+
+#secondary #h3 {
+	display: inline;
+	margin: 0px 0px 0px 0px!important;
+}
+
+#secondary #h4 {
+	display: inline;
+}
+
+.twtr-widget-profile h3, .twtr-widget-profile h4 {
+	margin: 0 0 0 0px!important;
+}
+
 #secondary {
 	float: right;
 	margin-right: 4.0%;
 	margin-bottom: 30px;
 	width: 26%;
-	background-color: #EC6324;
 	padding-top: 10px;
 	padding-bottom: -10px;
 }
 
+
 #secondary #sponsor_headers {
+	background-color: #EC6324;	
     color: #FFF;
 }
 
